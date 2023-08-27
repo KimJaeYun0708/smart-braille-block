@@ -1,9 +1,12 @@
+//핀 번호 지정
 #define TRIG1 33
 #define TRIG2 35
 #define TRIG3 37
 #define ECHO1 32
 #define ECHO2 34
 #define ECHO3 36
+
+//전역변수 설정
 
 int trig[3] = {TRIG1, TRIG2, TRIG3};
 int echo[3] = {ECHO1, ECHO2, ECHO3};
